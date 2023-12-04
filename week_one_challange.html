@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather app</title>
+  <style>
+    body {
+      display: block;
+      margin: 8px;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 40px;
+      height: auto;
+    }
+    h1 {
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 34px;
+      color: #1a64d6;
+      line-height: 48px;
+      margin: 0 auto;
+      margin-block-start: 0.67em;
+      margin-block-end: 0.67em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+    }
+
+    h2{
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      margin: 0;
+      font-size: 34px;
+      line-height: 48px;
+      font-weight: 400;
+    }
+
+    p {
+      font-family: Helvetica, Arial, sans-serif;
+      text-align: center;
+      font-size: 28px;
+    }
+
+    .Tomorrow{
+      display: block;
+      margin: 0 auto;
+      padding: 50px 100px 50px 100px;
+      border-color: #ffffff;
+      background-color: #ffffff;
+
+    }
+    .Saturday{
+      display: block;
+      margin: 0 auto;
+      padding: 50px 100px 50px 100px;
+      border-color: #ffffff;
+      background-color: #ffffff;
+    }
+
+    .Sunday {
+      display: block;
+      margin: 0 auto;
+      padding: 50px 100px 50px 100px;
+      border-color: #ffffff;
+      background-color: #ffffff;
+    }
+    .Tomorrow:hover , 
+    .Saturday:hover,
+    .Sunday:hover{
+      background-color:#FAE9E3;
+      cursor: pointer;
+    }
+
+    .change-city {
+      border: 1px solid #3565d6;
+      border-radius: 30px;
+      box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
+      margin: 20px auto;
+      display: block;
+      color: #ffffff;
+      font-size: 16px;
+      background: #3565d6;
+      padding: 15px 20px;
+      transition: background 200ms ease-in-out, color 200ms ease-in-out; /* Added transition for background and color */
+    }
+
+    .change-city:hover {
+      color: #3565d6;
+      background: #ffffff;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+
+
+    li {
+      display: block;
+      margin: 0 15px;
+      text-align: center;
+      font-family: Helvetica, Arial, sans-serif;
+      list-style: none;
+      text-align: center;
+      padding: 10px 0;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out;
+      max-width: 400px;
+      margin: 0 auto;
+      
+    }
+
+    li:hover {
+        background: #fffbef;
+      }
+
+
+    .message {
+      font-size: 15px;
+      opacity: 0.7;
+      text-align: center;
+      font-family: monospace;
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+    }
+  </style>
+</head>
+<body>
+    </style>
+  </head>
+  <body>
+    <h1> ⛅ <br/> Currently 21&deg; in Tokyo</h1>
+    <h2>
+      13&deg; /
+      <strong> 23&deg; </strong>
+    </h2>
+
+    <ul>
+      <li>
+        
+          
+          <strong>🌧️Tomorrow</strong> <br />
+          10&deg / 22&deg
+       
+      </li>
+
+      <li>
+        <strong>☁️ Saturday</strong> <br />
+          15&deg / 17&deg
+        
+      </li>
+      <li>
+        <strong>☀️ Sunday</strong> <br />
+          25&deg / 27&deg
+        
+      </li>
+    </ul>
+
+    <button class="change-city">Change city</button>
+    <p class="message">Coded by Neelakshi Choudhary</p>
+  </body>
+</html>
