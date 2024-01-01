@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Palace Of Illusions</title>
+    <style>
+      body {
+        background: linear-gradient(green, white);
+        color: black; 
+        font-size: 16px; 
+      }
+
+      h1 {
+        text-align: center;
+        padding: 15px;
+        font-size: 24px;
+        font-weight: bold;
+        color: black;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: normal;
+      }
+
+      p {
+        line-height: 1.5;
+        font-size: 13px;
+        margin: 20px 0 10px;
+      }
+
+      img {
+        display: block;
+        margin: auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+      div {
+        text-align: center;
+        margin: 20px 0;
+        font-style: italic;
+      }
+
+      a {
+        text-decoration: none;
+        color: blue;
+      }
+
+      button {
+        display: block;
+        margin: 20px auto;
+        background: green;
+        color: white;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+
+      button:hover {
+        opacity: 0.9;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Palace Of Illusions</h1>
+    <h2>Chitra Banerjee Divakaruni</h2>
+    <img
+      src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1679444666i/1774836.jpg"
+      alt="book image"
+      width="200"
+    />
+    <p>
+      Relevant to today's war-torn world, The Palace of Illusions takes us back
+      to a time that is half history, half myth, and wholly magical. Narrated by
+      Panchaali, the wife of the legendary Pandavas brothers in the Mahabharat,
+      the novel gives us a new interpretation of this ancient tale.<br />The
+      Palace of Illusions traces the princess Panchaali's life, beginning with
+      her birth in fire and following her spirited balancing act as a woman with
+      five husbands who have been cheated out of their father’s kingdom.
+      Panchaali is swept into their quest to reclaim their birthright, remaining
+      at their side through years of exile and a terrible civil war involving
+      all the important kings of India. Meanwhile, we never lose sight of her
+      strategic duels with her mother-in-law, her complicated friendship with
+      the enigmatic Krishna, or her secret attraction to the mysterious man who
+      is her husbands' most dangerous enemy. Panchaali is a fiery female
+      redefining for us a world of warriors, gods, and the ever-manipulating
+      hands of fate.<br />
+      <a
+        href="https://www.amazon.in/Palace-Illusions-Chitra-Banerjee-Divakaruni/dp/1400096200"
+        target="_blank"
+        >Amazon Link</a
+      ><br />
+      <button class="buy-button" onclick="buy()">Buy Here</button>
+    </p>
+    <div>This page is built by Neelakshi Choudhary 😎</div>
+
+    <script>
+      function buy() {
+        let name = prompt("What is your name?");
+        let email = prompt("Enter your email");
+        if (name && email) {
+          alert("Thank you, " + name + "!");
+        } else {
+          alert("Please provide your name and email!");
+        }
+      }
+
+      let buyButton = document.querySelector(".buy-button");
+      buyButton.addEventListener("click", function (event) {
+        buy();
+      });
+    </script>
+  </body>
+</html>
