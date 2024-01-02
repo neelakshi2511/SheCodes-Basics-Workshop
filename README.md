@@ -1,5 +1,5 @@
 # SheCodes-Basics-Workshops
-Contains all my learnings from the SheCodes Basics Workshop . The workshop contents include HTML , CSS , JavaScript and effective use of VSCode . 
+Contains all my learnings from the SheCodes Basics Workshop . SheCodes Basics is a 3-week long workshop that includes HTML , CSS , JavaScript and effective use of VSCode . 
 The workshop objectives inlcude - 
 
 
